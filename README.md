@@ -10,11 +10,13 @@ pip install uv
 
 # 2 Установить зависимости
 uv sync
-source .venv/bin/activate.fish
 
-# 3 Запустить клиент
+# 3 активировать venv
+source .venv/bin/activate
+
+# 4 Запустить клиент
 uv run ./src/main.py -s 111 -r 222 -m "Hello World"
 
-# 6. Запустить тесты
+# 5 Запустить тесты
 pytest
 ```
