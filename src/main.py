@@ -5,7 +5,7 @@ from models import HttpResponse, HttpRequest
 import cli
 import config
 
-logging.basicConfig(level=logging.INFO, filename="../log/py_log.log", filemode="w")
+logging.basicConfig(level=logging.INFO, filename="./log/py_log.log", filemode="w")
 
 
 def make_body() -> str:

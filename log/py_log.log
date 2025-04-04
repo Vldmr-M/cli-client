@@ -1,7 +1,7 @@
 INFO:root:params from command-line:
-   sender: 1111
-   recipient: 2222
-   message: hello world
+   sender: 111
+   recipient: 111
+   message: asdf
 INFO:root:Connection is established
 INFO:root:The request has been sent
 INFO:root:Response received:
