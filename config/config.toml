@@ -1,0 +1,7 @@
+[server]
+host = "localhost"
+port = 4010
+
+[auth]
+username = "user1"
+password = "passwd"
