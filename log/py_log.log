@@ -1,0 +1,10 @@
+INFO:root:params from command-line:
+   sender: 1111
+   recipient: 2222
+   message: hello world
+INFO:root:Connection is established
+INFO:root:The request has been sent
+INFO:root:Response received:
+HTTP RESPONSE:
+   STATUS_CODE: 200
+   BODY: {"status":"success","message_id":"123456"}
